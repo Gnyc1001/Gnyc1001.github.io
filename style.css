@@ -37,6 +37,8 @@ body { text-align: center; color: #131e27; background: #f0efef;
 .mlink:hover .img-top { display: inline; position: absolute; }
 .imgs, .mlink .imp-top, .mlink:hover .img-top { margin-right: 1%; margin-top: 1%; width: 50px; height: 50px; }
 
+.mswalk { width: 300px; height: 200px; border: 7px solid #91e564; border-radius: 15%; padding: 5px; }
+
 .propic1 { position: relative; display: inline-block; border: 5px solid #AED6F2; }
 .propic1 .img-top { display: none; position: absolute; top: 0; left: 0;  z-index: 99; }
 .propic1:hover .img-top { display: inline; }
