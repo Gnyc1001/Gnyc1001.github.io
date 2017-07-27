@@ -2,97 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css"
-  href="https://fonts.googleapis.com/css?family=Spectral">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Spectral">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+  <link rel ="stylesheet" type="text/css" href="style.css">
+  <link rel ="stylesheet" type="text/css" href="script.js">
+
   <title>Gary Chin's Page</title>
-  <style>
 
-  body { text-align: center; color: #AED6F1;
-      background: -webkit-linear-gradient(to right, #1e0747, #293f50 60%, #648880);
-      background:    -moz-linear-gradient(to right, #1e0747, #293f50 60%, #648880);
-      background:         linear-gradient(to right, #1e0747, #293f50 60%, #648880);
-      background-size: cover; background-position: center;
-      font-family: "Spectral", Georgia, helvetica; }
-
-  div { position: top;}
-  div.page { margin: 0 auto; width: auto; padding: 5px;
-      background: -webkit-linear-gradient(#293f50,#293f50);
-      background:    -moz-linear-gradient(#293f50,#293f50);
-      background:         linear-gradient(#293f50,#293f50); }
-
-  h1 { font-family: "Spectral", Georgia, helvetica; text-align: center;
-      font-size: 40px; padding: 10px; text-shadow: 10px 10px 5px black; }
-
-  p { font-size: 16px; text-align: left; color: rgba(174, 214, 241);
-      background-color: rgba(5,4,2,0.1); width:850px; height: 100%;
-      margin-left:auto; margin-right:auto; }
-
-  hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 15%;
-    margin-right: 15%;
-    border-style: inset;
-    border-width: 1px;
-  }
-
-.mlink { position: relative; display: inline-block; }
-.mlink .img-top { display: none; position: absolute;
-      top: 0; left: 0;  z-index: 99; }
-.mlink:hover .img-top { display: inline; position: absolute; }
-
-.propic { position: relative; display: inline-block; }
-.propic .img-top { display: none;  position: absolute;
-  top: 0; left: 0;  z-index: 99; }
-.propic:hover .img-top { display: inline; }
-
-input { border: 0; padding: 8px; font-size: 15px; }
-input[type="Submit"] { background: #AED6F1;  color: blue; }
-
-    </style>
   </head>
   <body>
-
    <!-- main links -->
-   <div class="page" style="height:50px;">
+   <header>
    <div class="mlink" title="Home"><a href="index.html">
-     <img src="home.gif" alt="Home" style="float:center; margin-right: 1%; margin-top: 1%; width: 50px; height: 50px">
-     <img src="home1.gif" class="img-top"  alt="Home" style="float:center; margin-right: 1%; margin-top: 1%; width: 50px; height: 50px">
-     </a></div>
+     <img src="images/home.gif" alt="Home" class="imgs">
+     <img src="images/home1.gif" class="img-top"></a></div>
    <div class="mlink">
    <a href="Page2.html" title="Skills and Work Experience">
-     <img src="Skill.gif" alt="Skills" style="float:center; margin-right: 1%; margin-top: 1%; width: 50px; height: 50px">
-     <img src="Work.gif" class="img-top"  alt="Home" style="float:center; margin-right: 1%; margin-top: 1%; width: 50px; height: 50px">
-     </a></div>
+     <img src="images/Skill.gif" alt="Skills" class="imgs">
+     <img src="images/Work.gif" class="img-top"></a></div>
    <div class="mlink">
    <a href="Page3.html" title="Art and Volunteering">
-     <img src="art.gif" alt="Art" style="float:center; margin-right: 1%; margin-top: 1%; width: 50px; height: 50px">
-     <img src="art1.gif" class="img-top"  alt="Home" style="float:center; margin-right: 1%; margin-top: 1%; width: 50px; height: 50px">
-     </a></div>
+     <img src="images/art.gif" alt="Art" class="imgs">
+     <img src="images/art1.gif" class="img-top"></a></div>
    <div class="mlink">
    <a href="https://www.linkedin.com/in/gary-chin-b4609788/" title="My Linkedin">
-     <img src="link.gif" alt="Linkedin" style="float:center; margin-right: 1%; margin-top: 1%; width: 50px; height: 50px">
-     <img src="link1.gif" class="img-top"  alt="Home" style="float:center; margin-right: 1%; margin-top: 1%; width: 50px; height: 50px">
-     </div></a>
+     <img src="images/link.gif" alt="Linkedin" class="imgs">
+     <img src="images/link1.gif" class="img-top"></a></div>
    <div class="mlink">
    <a href="matilto:GaryChin100@gmail.com" title="My Email">
-     <img src="gmail.png" alt="Gmail" style="float:center; margin-right: 1%; margin-top: 1%; width: 50px; height:50px">
-     <img src="gmail1.gif" class="img-top"  alt="Home" style="float:center; margin-right: 1%; margin-top: 1%; width: 50px; height: 50px">
-     </a></div></div>
-     <label id="lblGreetings"></label>
+     <img src="images/gmail.png" alt="Gmail" class="imgs">
+     <img src="images/gmail1.gif" class="img-top"></a></div></header>
+
+     <label id="timegreetings"></label>
 <!-- beginning -->
     <h1>Welcome to Gary's Page</h1>
     <div class="propic" title="Gary Chin">
-      <img src="me.jpg" alt="Gary" style="float:center; width: 250px; height: 250px; border-radius: 70%; border: 5px solid #AED6F2;">
-      <img src="me1.jpg" class="img-top"  alt="Gary" style="float:center; width: 250px; height: 250px; border-radius: 70%; border: 5px solid #AED6F2;" onclick="window.open('me.jpg', 'Gary');">
+      <img src="images/me.jpg" alt="Gary" style="float:center; width: 250px; height: 250px; border-radius: 70%; border: 5px solid #AED6F2;">
+      <img src="images/me1.jpg" class="img-top"  alt="Gary" style="float:center; width: 250px; height: 250px; border-radius: 70%; border: 5px solid #AED6F2;" onclick="window.open('me.jpg', 'Gary');">
       </a></div>
 
-      <p>&nbsp;&nbsp;Hello, my name is Gary Chin and welcome to my personal page!  I am 33 years old and I currently reside in Manhattan, New York. Grew up in East Brunswick, New Jersey. Attended Pace University Downtown and graduated in 2007 with a BBA in Finance.  Worked at Merrill Lynch from 2007 to 2016 in various roles from back office to middle office client support. While at Merrill Lynch I learned a lot about macros, problem solving and figuring workarounds when clients were having problems with the website.  On weekends, I was involved with UAT testing with new updates, which made me more interested in web devlopmenting.  While I am not working or studying, I like trying new Zagat/Michelin star restaurants, play tennis or hiking.</p>
-      <hr><p><strong>Favorite Television Shows: </strong> Game of Thrones, The Walking Dead, House of Cards, Supernatural, Family Guy, Archer, Venture Bros, Agent of S.H.I.E.L.D., Bob's Burger, Breaking Bad, Sons of Anarchy and The Simpsons.</p>
-      <hr><p><strong>Favorite Movies: </strong>Original Star Wars, Jurassic Park, The Godfather, Christmas Story, The Shining, Castaway, Training Day, Underworld, The Big Lebowski, Sin City and Office Space.</p>
-      <hr><p><strong>Favorite Foods: </strong>Italian, Spanish, Mexican, Thai, Malaysian, Indian, Greek, Korean, Japanese, Ethiopian, Pervian, Morrocan, Polish, French</p>
+      <p class="rounded">Hello, my name is Gary Chin and welcome to my personal page!  I am 33 years old and I currently reside in Manhattan, New York. Grew up in East Brunswick, New Jersey. Attended Pace University Downtown and graduated in 2007 with a BBA in Finance.  Worked at Merrill Lynch from 2007 to 2016 in various roles from back office to middle office client support. While at Merrill Lynch I learned a lot about macros, problem solving and figuring workarounds when clients were having problems with the website.  On weekends, I was involved with UAT testing with new updates, which made me more interested in web devlopmenting.  While I am not working or studying, I like trying new Zagat/Michelin star restaurants, play tennis or hiking.</p>
+
+      <hr><p class="rounded"><strong>Favorite Television Shows: </strong> Game of Thrones, The Walking Dead, House of Cards, Supernatural, Family Guy, Archer, Venture Bros, Agent of S.H.I.E.L.D., Bob's Burger, Breaking Bad, Sons of Anarchy and The Simpsons.</p>
+
+      <hr><p class="rounded"><strong>Favorite Movies: </strong>Original Star Wars, Jurassic Park, The Godfather, Christmas Story, The Shining, Castaway, Training Day, Underworld, The Big Lebowski, Sin City and Office Space.</p>
+      <hr><p class="rounded"><strong>Favorite Foods: </strong>Italian, Spanish, Mexican, Thai, Malaysian, Indian, Greek, Korean, Japanese, Ethiopian, Pervian, Morrocan, Polish, French</p>
     </div>
       <!-- Rating System Not Linked -->
       <h4>Rate this site 5 being Excellent to 1 Needs Work!</h4>
@@ -103,25 +57,16 @@ input[type="Submit"] { background: #AED6F1;  color: blue; }
       <label for="1">1</label><input name="rate" id="1" type="radio" value="1">
       <button>Submit!</button>
 <!-- Email Submit -->
-    <div class="page">
-      <form name="signup" method="post">
-        First Name: <input type="text" name="first_name">
-        Last Name: <input type="text" name="last_name">
-        Email: <input type="email" name="email">
-      <input type="submit">
-      </form><footer>Contact Me GaryChin100@gmail.com</footer></div>
 
-      
+      <footer><form name="signup" method="post">
+        First Name: <input type="text" name="first_name" id="fname">
+        Last Name: <input type="text" name="last_name" id="lname">
+        Email: <input type="email" name="email" id="xmail">
+      <input type="submit" href="#" id="smail">
+      </form></footer>
+
+
 
   </body>
-  <script>
-    let myDate = new Date();
-    let hrs = myDate.getHours();
-    let greet;
-
- if (hrs < 12) greet = 'Good Morning!';
- else if (hrs >= 12 && hrs <= 17) greet = 'Good Afternoon!';
- else if (hrs >= 17 && hrs <= 24) greet = 'Good Evening!';
-
- document.getElementById('lblGreetings').innerHTML = '<b>' + greet + '</b> and Thank You for Visiting My Site!'; </script>
+  <script src="script.js"></script>
 </html>
