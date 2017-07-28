@@ -50,4 +50,7 @@ body { text-align: center; color: #131e27; background: #f0efef;
 input { border: 0; padding: 8px; font-size: 15px; }
 input[type="Submit"] { background: #AED6F1;  color: blue; }
 
+#fname {}
+#lname {}
+#xmail {}
 
