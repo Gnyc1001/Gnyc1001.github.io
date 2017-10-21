@@ -20,7 +20,7 @@ header {
     background: transparent; background-size: cover; 
      }
 
-#toplinks { float: right; margin-top: 10px; }    
+#toplinks { float: right; margin-top: 10px; }  
 
 #toplinks a { font-family: 'Libre Baskerville', serif; font-size: 28px; margin-top: 15px; text-decoration: none; text-align: right; 
 }
