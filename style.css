@@ -1,56 +1,46 @@
-header, footer { padding: 20px; background: #606161; background-size: cover; }
+*{ text-decoration: none;  color: #e9ece5; }
 
-.clearfix:after { visibility: hidden; display: block; content: " "; clear: both; height: 0; font-size: 0; }
+::-webkit-scrollbar {
+    width: 1.2em;
+  }
+  
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(3, 0, 96, 0.3);
+    background-color: transparent;
+    border-radius: 15px; border: 2px solid rgb(49, 86, 217);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background-color: transparent; outline: 1px solid #32309f;
+  border-radius: 25px; border: 3px solid rgb(23, 30, 154);
+  }
 
-body { text-align: center; color: #131e27; background: #f0efef;
-      background-size: cover; background-position: center;
-      font-family: "Spectral", Georgia, helvetica; }
+header { 
+    height: 100%; width: 95%; 
+    background: transparent; background-size: cover; 
+     }
 
+#toplinks { float: right; margin-top: 10px; }    
 
-  h1 { font-family: "Spectral", Georgia, helvetica; text-align: center;
-      font-size: 40px; padding: 10px; text-shadow: 10px 10px 5px black; }
+#toplinks a { font-family: 'Libre Baskerville', serif; font-size: 28px; margin-top: 15px; text-decoration: none; text-align: right; 
+}
 
-  h2 { font-family: "Spectral", Georgia, helvetica; }
+h1, h2 { font-family: 'Libre Baskerville', serif; }
 
-  h3 { text-align: center; }
+h1 { font-size: 30px; margin-top: 150px;
+}
 
-  p { font-size: 16px; text-align: left; color: rgba(174, 214, 241);
-      background-color: rgba(5,4,2,0.1); width:850px; height: 100%;
-      margin-left:auto; margin-right:auto; text-align: center; }
+#container { background-color: #b3c2bf; width: 95%; height: 100%; }
 
-  ul { text-align: left; border-radius: 15px; font-size: 16px; width:75%; height: 100%;
-      background-color: rgba(5,4,2,0.1); margin-left:auto; margin-right:auto; }
+#headline { width: 95%; height: 300px; padding: 10px; }
 
+#aboutme, #mywork { text-align: center; font-size: 35px; }
+#mywork { text-align: center; font-size: 35px; background-image: url('./img/blueprint.jpg'); width: 95%; }
+#battleship, #starwars { background-size: cover; background-repeat: no-repeat; height: auto;  }
 
-  hr { display: block; margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 15%;
-    margin-right: 15%; border-style: inset; border-width: 1px; }
+#starwars img, #battleship img { width: 500px; height: 350px; border: 2px solid black; margin-left: 10px; }
 
-.art1 { position: relative; display: inline-block;  border: 5px solid #AED6F2; }
-.art1 .img-top { display: none; position: absolute; top: 0; left: 0; z-index: 99; }
-.art1:hover .img-top { display: inline; }
-.arts, .art1, .art1 .img-top, .art1:hover .img-top { width: 150px; height: 150px; border-radius: 70%; }
+#project { margin: 50px auto 10px auto; text-align: center; font-size: 30px; font-weight: 900px; }
 
-.date { float: right; margin-right: 20px;}
-
-.mlink { position: relative; display: inline-block; }
-.mlink .img-top { display: none; position: absolute; top: 0; left: 0;  z-index: 99; }
-.mlink:hover .img-top { display: inline; position: absolute; }
-.imgs, .mlink .imp-top, .mlink:hover .img-top { margin-right: 1%; margin-top: 1%; width: 50px; height: 50px; }
-
-.mswalk { width: 300px; height: 200px; border: 7px solid #91e564; border-radius: 15%; padding: 5px; }
-
-.propic1 { position: relative; display: inline-block; border: 5px solid #AED6F2; }
-.propic1 .img-top { display: none; position: absolute; top: 0; left: 0;  z-index: 99; }
-.propic1:hover .img-top { display: inline; }
-.propic, .propic1, .propic1 .img-top, .propic1:hover .img-top { width: 250px; height: 250px; border-radius: 70%; }
-
-.rounded {-moz-border-radius: 15px; -webkit-border-radius: 15px; }
-.title { text-decoration: underline; }
-
-input { border: 0; padding: 8px; font-size: 15px; }
-input[type="Submit"] { background: #AED6F1;  color: blue; }
-
-#fname {}
-#lname {}
-#xmail {}
-
+.names { background-color: #3b3a36; width: 500px; height: auto; border-radius: 25px; border: 2px solid black; margin-left: 230px; }
+.names:hover { font: blue; }

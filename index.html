@@ -2,70 +2,70 @@
 <html>
   <head>
     <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Spectral">
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Libre+Baskerville">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel ="stylesheet" type="text/css" href="style.css">
   <link rel ="stylesheet" type="text/css" href="script.js">
 
-  <title>Gary Chin's Page</title>
-
+  <title>Developer Gary Chin</title>
   </head>
   <body>
-   <!-- main links -->
-   <header>
-   <div class="mlink" title="Home"><a href="index.html">
-     <img src="imgst/home.gif" alt="Home" class="imgs">
-     <img src="imgst/home1.gif" class="img-top"></a></div>
-   <div class="mlink">
-   <a href="pg2.html" title="Skills and Work Experience">
-     <img src="imgst/skill.gif" alt="Skills" class="imgs">
-     <img src="imgst/work.gif" class="img-top"></a></div>
-   <div class="mlink">
-   <a href="pg3.html" title="Art and Volunteering">
-     <img src="imgst/art.gif" alt="Art" class="imgs">
-     <img src="imgst/art1.gif" class="img-top"></a></div>
-   <div class="mlink">
-   <a href="https://www.linkedin.com/in/gary-chin-b4609788/" title="My Linkedin">
-     <img src="imgst/link.gif" alt="Linkedin" class="imgs">
-     <img src="imgst/link1.gif" class="img-top"></a></div>
-   <div class="mlink">
-   <a href="matilto:GaryChin100@gmail.com" title="My Email">
-     <img src="imgst/gmail.png" alt="Gmail" class="imgs">
-     <img src="imgst/gmail1.gif" class="img-top"></a></div></header>
+      <header>
+        <div id="toplinks">
+          <a href="http://www.gary-chin.com"> gary chin </a><br/>
+          <a href="#aboutme"> about me </a><br/>
+          <a href="#mywork"> projects </a><br/> 
+          <a href="#contactme"> contact</a>
+        </div>
 
-     <label id="timegreetings"></label>
-<!-- beginning -->
-    <h1>Welcome to Gary's Page</h1>
-<!-- Profile Picture that flips -->
-      <div class="propic1">
-      <img src="imgst/me.jpg" alt="Gary" class="propic">
-      <img src="imgst/me1.jpg" class="img-top" alt="Gary"
-      onclick="window.open('imgst/me.jpg', 'Gary')"></div>
-
-      <p class="rounded">Hello, my name is Gary Chin and welcome to my personal page!  I am 33 years old and I currently reside in Manhattan, New York. Grew up in East Brunswick, New Jersey. Attended Pace University Downtown and graduated in 2007 with a BBA in Finance.  Worked at Merrill Lynch from 2007 to 2016 in various roles from back office to middle office client support. While at Merrill Lynch I learned a lot about macros, problem solving and figuring workarounds when clients were having problems with the website.  On weekends, I was involved with UAT testing with new updates, which made me more interested in web devlopmenting.  While I am not working or studying, I like trying new Zagat/Michelin star restaurants, play tennis or hiking.</p>
-
-      <hr><p class="rounded"><strong>Favorite Television Shows: </strong> Game of Thrones, The Walking Dead, House of Cards, Supernatural, Family Guy, Archer, Venture Bros, Agent of S.H.I.E.L.D., Bob's Burger, Breaking Bad, Sons of Anarchy and The Simpsons.</p>
-
-      <hr><p class="rounded"><strong>Favorite Movies: </strong>Original Star Wars, Jurassic Park, The Godfather, Christmas Story, The Shining, Castaway, Training Day, Underworld, The Big Lebowski, Sin City and Office Space.</p>
-      <hr><p class="rounded"><strong>Favorite Foods: </strong>Italian, Spanish, Mexican, Thai, Malaysian, Indian, Greek, Korean, Japanese, Ethiopian, Pervian, Morrocan, Polish, French</p>
+      </header> 
+  <div id="container"> 
+      
+      <div id="headline">
+        <div id="minibox">
+        <h1> Web Developer </h1>
+        <h3> Hi, I'm Gary Chin a full stack developer based in New York City. </h3>
+        </div>
+      </div>
+      <div id="aboutme">ABOUT ME
+        <div id="projectheader"></div>
+      </div>
     </div>
-      <!-- Rating System Not Linked -->
-      <h4>Rate this site 5 being Excellent to 1 Needs Work!</h4>
-      <label for="5">5</label><input name="rate" id="5" type="radio" value="5">
-      <label for="4">4</label><input name="rate" id="4" type="radio" value="4">
-      <label for="3">3</label><input name="rate" id="3" type="radio" value="3">
-      <label for="2">2</label><input name="rate" id="2" type="radio" value="2">
-      <label for="1">1</label><input name="rate" id="1" type="radio" value="1">
-      <button>Submit!</button>
-<!-- Email Submit -->
+    
+      <div id="mywork">PROJECTS
+        <div id="projectheader"></div>
 
-      <footer><form name="signup" method="post">
-        First Name: <input type="text" name="first_name" id="fname" required>
-        Last Name: <input type="text" name="last_name" id="lname" required="">
-        Email: <input type="email" name="email" id="xmail" required>
-      <input type="submit" href="#" id="smail">
-      </form></footer>
+        <div id="project">
+          <div id="battleship">
+            <a href="http://battleship-final.bitballoon.com/">
+              <img src='./img/battleship.png' alt='battleship'>
+            </a>
+          </div>
+          <div class="names">
+            <a href="http://battleship-final.bitballoon.com/"> - Play Battleship Version 1.0 - </a></br/>
+            <a href="https://github.com/Gnyc1001/Unit1Project"/>
+            <img src='./img/github32px.png' alt='git'> Battleship GitHub </a>
+          </div>
+        </div>
 
+        <div id="project">
+            <div id="starwars">
+                <a href="https://thawing-headland-25589.herokuapp.com/">
+                  <img src='./img/starwars.jpg' alt='starwars'>
+                </a>
+            </div>
+            <div class="names">
+            <a href="https://thawing-headland-25589.herokuapp.com/"> - Check out Starwars DB - </a><br/>
+            <a href="https://git.generalassemb.ly/gnyc1001/Project-2"/>
+            <img src='./img/github32px.png' alt='git'>  Starwars_DB GitHub </a>
+            </div>
+        </div>
+      
+      </div>
+    </div>
+
+</div>
   </body>
   <script src="script.js"></script>
 </html>
