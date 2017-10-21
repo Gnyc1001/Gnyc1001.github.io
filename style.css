@@ -34,16 +34,16 @@ h1 { font-size: 30px; margin-top: 150px;
 
 #headline { width: 95%; height: 300px; padding: 10px; border-radius: 25px; }
 
-#aboutme, #mywork, #aboutme { text-align: center; font-size: 35px; margin: 10px 0 10px 0; border-radius: 25px; border: 5px solid #3b3a36; }
+#aboutme, #mywork, #contactme { text-align: center; font-size: 35px; margin: 10px 0 10px 0; border-radius: 25px; border: 5px solid #3b3a36; width: 95%; font-size: 35px; }
 
 #aboutme { 
-background-image: url('./img/me.jpg'); background-size: cover; background-repeat: no-repeat; 
-width: 95%; opacity: 0.5; height: 500px; }
+background-image: url('./img/me.jpg'); background-size: cover; background-repeat: no-repeat; height: 500px; }
 
-#mywork { background-image: url('./img/blueprint.jpg'); background-size: cover; background-repeat: no-repeat;  width: 95%; font-size: 35px; }
+#mywork { 
+background-image: url('./img/blueprint.jpg'); background-size: cover; background-repeat: no-repeat; }
 
 #contactme { 
-  background-image: url('./img/contact.jpg'); background-size: cover; background-repeat: no-repeat; opacity: 0.5; width: 95%; font-size: 35px; }
+background-image: url('./img/contact.jpg'); background-size: cover; background-repeat: no-repeat;  height: 500px; }
 
 #battleship, #starwars { background-size: cover; background-repeat: no-repeat; height: auto;  }
 
