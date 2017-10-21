@@ -54,3 +54,5 @@ background-image: url('./img/contact.jpg'); background-size: cover; background-r
 .names { background-color: #3b3a36; text-align: center; margin: 0px auto 0 auto;
   width: 500px; height: auto; border-radius: 25px; border: 5px solid black;  }
   p { font-size: 20px; padding: 40px; }
+
+  #contacts img { width: 150px; height: 150px; }
