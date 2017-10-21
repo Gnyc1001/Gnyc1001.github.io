@@ -17,10 +17,10 @@
 
 header { 
     height: 100%; width: 95%; 
-    background: transparent; background-size: cover; 
+    background: transparent; background-size: cover; text-align: right; margin-right: 15px;
      }
 
-#toplinks { float: right; margin-top: 10px; }  
+#toplinks {  margin-top: 10px; }  
 
 #toplinks a { font-family: 'Libre Baskerville', serif; font-size: 28px; margin-top: 15px; text-decoration: none; text-align: right; 
 }
@@ -34,13 +34,19 @@ h1 { font-size: 30px; margin-top: 150px;
 
 #headline { width: 95%; height: 300px; padding: 10px; }
 
-#aboutme, #mywork { text-align: center; font-size: 35px; }
-#mywork { text-align: center; font-size: 35px; background-image: url('./img/blueprint.jpg'); width: 95%; }
+#aboutme, #mywork, #aboutme { text-align: center; font-size: 35px; margin: 10px 0 10px 0; }
+
+#aboutme { background-image: url('./img/me.jpg'); width: 95%; opacity: 0.5;
+height: 500px; }
+
+#mywork { font-size: 35px; background-image: url('./img/blueprint.jpg');  width: 95%; }
+
 #battleship, #starwars { background-size: cover; background-repeat: no-repeat; height: auto;  }
 
-#starwars img, #battleship img { width: 500px; height: 350px; border: 2px solid black; margin-left: 10px; }
+#starwars img, #battleship img { width: 500px; height: 350px; border: 2px solid black; }
 
-#project { margin: 50px auto 10px auto; text-align: center; font-size: 30px; font-weight: 900px; }
+.project { font-size: 30px; font-weight: 900px; margin: 20px 0 20px 0; padding: 10px; }
 
-.names { background-color: #3b3a36; width: 500px; height: auto; border-radius: 25px; border: 2px solid black; margin-left: 230px; }
-.names:hover { font: blue; }
+.names { background-color: #3b3a36; text-align: center; margin: 0px auto 0 auto;
+  width: 500px; height: auto; border-radius: 25px; border: 2px solid black;  }
+  p { font-size: 20px; padding: 10px; }
