@@ -25,20 +25,22 @@ header {
 #toplinks a { font-family: 'Libre Baskerville', serif; font-size: 28px; margin-top: 15px; text-decoration: none; text-align: right; 
 }
 
-h1, h2 { font-family: 'Libre Baskerville', serif; margin-left: 30px; }
+#name { font-size: 80px; font-weight: 700; }
 
-h1 { font-size: 30px; margin-top: 150px;
+h1, h2 { font-family: 'Libre Baskerville', serif; margin-left: 25px; font-weight: 800; }
+
+h1 { font-size: 45px; margin-top: 150px;
 }
 
 #container { background-color: #b3c2bf; width: 95%; height: 100%; border-radius: 25px; border: 5px solid #3b3a36; }
 
-#headline { width: 95%; height: 300px; padding: 10px; border-radius: 25px; }
+#headline { width: 95%; min-height: 300px; padding: 10px; border-radius: 25px; }
 
 #aboutme, #mywork, #skills, #contactme { text-align: center; font-size: 35px; margin: 10px 0 10px 0; border-radius: 25px; border: 5px solid #3b3a36; width: 95%; font-size: 35px; opacity: 0.9; }
 
 #aboutme { 
 background-image: url('./img/me.jpg'); background-size: cover; background-repeat: no-repeat; 
-height: 600px; padding: 5px; }
+min-height: 600px; padding: 5px; }
 
 #about { color: black; }
 
@@ -48,8 +50,8 @@ height: 600px; padding: 5px; }
 #skills { 
 background-image: url('./img/skills.jpg'); background-size: cover; background-repeat: no-repeat; }
 
-#workexp p { 
-background-color: #f98c06; padding: 5px; font-size: 16px; border: 2px solid #3b3a36; height: 30px; width: 100px; display: inline-block; border-radius: 25px; border: 2px solid #3b3a36; }
+#workexp h3, #workexp p { 
+background-color: #ff8c00; padding: 8px; font-size: 16px; border: 2px solid #3b3a36; display: inline-block; border-radius: 25px; border: 2px solid #3b3a36; color: #3b3a36; font-size: 25px; }
 
 #contactme { 
 background-image: url('./img/contact.jpg'); background-size: cover; background-repeat: no-repeat;  height: 500px; }
