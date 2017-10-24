@@ -42,7 +42,7 @@ h1 { font-size: 45px; margin-top: 150px;
 background-image: url('./img/me.jpg'); background-size: cover; background-repeat: no-repeat; 
 min-height: 600px; padding: 5px; }
 
-#about { color: black; }
+#about { color: black; border-radius: 25px; border: 2px solid #3b3a36; background: rgba(246, 246, 246, 0.5); }
 
 #mywork { 
   background-image: url('./img/blueprint.jpg'); background-size: cover; background-repeat: no-repeat; }
@@ -51,7 +51,7 @@ min-height: 600px; padding: 5px; }
 background-image: url('./img/skills.jpg'); background-size: cover; background-repeat: no-repeat; }
 
 #workexp h3, #workexp p { 
-background-color: #ff8c00; padding: 8px; font-size: 16px; border: 2px solid #3b3a36; display: inline-block; border-radius: 25px; border: 2px solid #3b3a36; color: #3b3a36; font-size: 25px; }
+background: rgba(246, 246, 246, 0.5); padding: 8px; font-size: 16px; border: 2px solid #3b3a36; display: inline-block; border-radius: 25px; border: 2px solid #3b3a36; color: #3b3a36; font-size: 25px; }
 
 #contactme { 
 background-image: url('./img/contact.jpg'); background-size: cover; background-repeat: no-repeat;  height: 500px; }
@@ -60,10 +60,13 @@ background-image: url('./img/contact.jpg'); background-size: cover; background-r
 
 #starwars img, #battleship img { width: 500px; height: 350px; border-radius: 25px; border: 5px solid #3b3a36; }
 
-.project { font-size: 30px; font-weight: 900px; margin: 20px 0 20px 0; padding: 10px; }
+.project { font-size: 30px; font-weight: 900px; margin: 20px 0 20px 0; padding: 10px;  }
 
-.names { background-color: #3b3a36; text-align: center; margin: 0px auto 0 auto;
-  width: 500px; height: auto; border-radius: 25px; border: 5px solid black;  }
-  p { font-size: 20px; padding: 40px; }
+.names a, .names { color:#3b3a36; }
 
-  #contacts img { width: 150px; height: 150px; }
+.names { background: rgba(246, 246, 246, 0.5); text-align: center; margin: 0px auto 0 auto;
+  width: 500px; height: auto; border-radius: 25px; border: 5px solid #3b3a36;  }
+  p { font-size: 20px; padding: 40px; color: #3b3a36; }
+
+a h2 { font-size: 25px; color: #3b3a36; }  
+#contacts img { width: 150px; height: 150px; }
