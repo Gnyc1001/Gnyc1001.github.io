@@ -58,7 +58,7 @@ background-image: url('./img/contact.jpg'); background-size: cover; background-r
 
 #battleship, #starwars { background-size: cover; background-repeat: no-repeat; height: auto;  }
 
-#starwars img, #battleship img { width: 500px; height: 350px; border-radius: 25px; border: 5px solid #3b3a36; }
+#starwars img, #battleship img, #hbi img, #genreland img { width: 500px; height: 350px; border-radius: 25px; border: 5px solid #3b3a36; }
 
 .project { font-size: 30px; font-weight: 900px; margin: 20px 0 20px 0; padding: 10px;  }
 
